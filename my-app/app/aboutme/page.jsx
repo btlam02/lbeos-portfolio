@@ -1,10 +1,10 @@
-const Services = () => {
+const Aboutme = () => {
     return (
-        <div className="">
-            About me  -  Page
+        <div className="flex items-center justify-center text-4xl text-accent font-semibold ">
+            👋 I will soon update my information 
         </div>
     )
 }; 
 
 
-export default Services
+export default Aboutme

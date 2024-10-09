@@ -17,10 +17,10 @@ const Header = () => {
                 </Link>
 
                 {/* {Desktop navbar} */}
-                <div className="hidden xl:flex item-center gap-8">
+                <div className="hidden xl:flex items-center gap-10">
                     <Nav />
-                    <Link href="/contact">
-                        <Button>
+                    <Link  href="/contact">
+                        <Button className="items-center">
                             Hire me
                         </Button>
                     </Link>
